@@ -1,6 +1,6 @@
 {
   "name": "@commonkads/docs",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "devDependencies": {
     "@commonkads/dev-workflow": "^1.3.0"
