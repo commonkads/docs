@@ -1,8 +1,8 @@
-# CommonKADS
+# CommonKADS (Platform)
 
 > **Disclaimer:** This project is an independent open-source software implementation inspired by the CommonKADS knowledge engineering methodology (Schreiber et al.). It is not affiliated with or endorsed by the original methodology authors or any third-party trademark holders.
 
-CommonKADS is a TypeScript framework for building knowledge-intensive applications. It separates domain knowledge from code — rules, ontologies, and domain models live as plain text files authored by domain experts — and uses an LLM at runtime to reason over that knowledge and produce auditable, traceable results.
+CommonKADS is a TypeScript platform for building knowledge-intensive applications. It separates domain knowledge from code and uses an LLM at runtime to reason over that knowledge and produce auditable, traceable results. Domain models (rules, decision tables, etc.) and ontologies (data types and relationships) live as plain text files authored by domain experts. It is grounded in the CommonKADS knowledge engineering methodlogy.
 
 ## Quick navigation
 
@@ -28,8 +28,9 @@ CommonKADS is a TypeScript framework for building knowledge-intensive applicatio
 
 | Repo | Purpose |
 |------|---------|
-| [api-runtime](https://github.com/commonkads/api-runtime) | Docker REST API — HTTP wrapper around the engine |
+| [api-runtime](https://github.com/commonkads/api-runtime) | Docker REST API — HTTP wrapper around the engine (planned) |
 | [api-author](https://github.com/commonkads/api-author) | Docker REST API for knowledge authoring (planned) |
+| [app-studio](https://github.com/commonkads/app-studio) | Single-page app for knowledge management and testing; calls `api-author` and `api-runtime` (planned) |
 
 ### Providers
 

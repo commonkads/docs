@@ -10,11 +10,13 @@ knowledge-examples  ← (no code dependency — knowledge files only)
        │                                    (register at startup)
        ├──► runner (CLI)
        │
-       ├──► author (CLI)
-       │
-       ├──► api-runtime (Docker REST API)
-       │
-       └──► api-author (Docker REST API, planned)
+       ├──► author (CLI, planned)
+       │       │
+       │       └──► api-author (Docker REST API, planned)
+       │                   │
+       │                   ├──────────────────────────────► app-studio (SPA, planned)
+       │                                                        ▲
+       └──► api-runtime (Docker REST API, planned)  ─────────────┘
 
 dev-workflow  ← npm install copies docs into each repo above
 ```
